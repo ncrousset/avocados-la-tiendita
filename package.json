@@ -5,9 +5,11 @@
     "format": "prettier --write \"src/**/*.js\"",
     "lint": "prettier --check \"src/**/*.js\"",
     "pre-commit": "pretty-quick --staged",
-    "install:husky": "husky install"
+    "install:husky": "husky install",
+    "gh-pages": "gh-pages -d public"
   },
   "devDependencies": {
+    "gh-pages": "^5.0.0",
     "husky": "7",
     "prettier": "^2.0.5",
     "pretty-quick": "^3.1.0",
